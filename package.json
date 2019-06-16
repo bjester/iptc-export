@@ -4,9 +4,7 @@
   "description": "Generate a CSV with image files and their metadata",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "mkdir -p dist",
-    "build": "pkg -t linux,macos --out-path ./dist --options no-warnings ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "iptc-export": "./index.js"
